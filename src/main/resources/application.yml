@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: zkdemo
+  cloud:
+    zookeeper:
+      connect-string: 192.168.200.60:2181
+      user-passwd:
+      baseTaskPath: /market/tasks
+
+logging:
+  level:
+    root: warn
+
+
